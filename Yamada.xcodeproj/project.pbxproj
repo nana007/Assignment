@@ -8,13 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		8822CA111AA686FC0095F707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA101AA686FC0095F707 /* AppDelegate.swift */; };
-		8822CA131AA686FC0095F707 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA121AA686FC0095F707 /* GameScene.sks */; };
 		8822CA151AA686FC0095F707 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA141AA686FC0095F707 /* GameScene.swift */; };
 		8822CA171AA686FC0095F707 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA161AA686FC0095F707 /* GameViewController.swift */; };
 		8822CA1A1AA686FC0095F707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA181AA686FC0095F707 /* Main.storyboard */; };
 		8822CA1C1AA686FC0095F707 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA1B1AA686FC0095F707 /* Images.xcassets */; };
 		8822CA1F1AA686FC0095F707 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA1D1AA686FC0095F707 /* LaunchScreen.xib */; };
 		8822CA2B1AA686FC0095F707 /* YamadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA2A1AA686FC0095F707 /* YamadaTests.swift */; };
+		8822CA3E1AA68B720095F707 /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA391AA68B720095F707 /* Level_0.json */; };
+		8822CA3F1AA68B720095F707 /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA3A1AA68B720095F707 /* Level_1.json */; };
+		8822CA401AA68B720095F707 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA3B1AA68B720095F707 /* Level_2.json */; };
+		8822CA411AA68B720095F707 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA3C1AA68B720095F707 /* Level_3.json */; };
+		8822CA421AA68B720095F707 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA3D1AA68B720095F707 /* Level_4.json */; };
+		8822CA5A1AA68F5D0095F707 /* Ambler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA531AA68F5D0095F707 /* Ambler.mp3 */; };
+		8822CA5B1AA68F5D0095F707 /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA541AA68F5D0095F707 /* Chomp.wav */; };
+		8822CA5E1AA68F5D0095F707 /* honey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA571AA68F5D0095F707 /* honey.wav */; };
+		8822CA5F1AA68F5D0095F707 /* nyon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8822CA581AA68F5D0095F707 /* nyon.wav */; };
+		8822CA621AA690320095F707 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA611AA690320095F707 /* Cookie.swift */; };
+		8822CA641AA690450095F707 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA631AA690450095F707 /* Array2D.swift */; };
+		8822CA661AA690530095F707 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA651AA690530095F707 /* Set.swift */; };
+		8822CA681AA690620095F707 /* Lavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA671AA690620095F707 /* Lavel.swift */; };
+		8822CA6A1AA690780095F707 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA691AA690780095F707 /* Extensions.swift */; };
+		8822CA6C1AA6908A0095F707 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA6B1AA6908A0095F707 /* Tile.swift */; };
+		8822CA6E1AA690970095F707 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA6D1AA690960095F707 /* Swap.swift */; };
+		8822CA701AA690A70095F707 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822CA6F1AA690A70095F707 /* Chain.swift */; };
+		88F9F8A91AA6D06B0099EBD2 /* e-oh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88F9F8A81AA6D06B0099EBD2 /* e-oh.wav */; };
+		88F9F8AB1AA6D1DF0099EBD2 /* drip1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88F9F8AA1AA6D1DF0099EBD2 /* drip1.wav */; };
+		88F9F8AD1AA6D29B0099EBD2 /* drop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88F9F8AC1AA6D29B0099EBD2 /* drop.wav */; };
+		88F9F8AF1AA6D40E0099EBD2 /* oh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88F9F8AE1AA6D40E0099EBD2 /* oh.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +51,6 @@
 		8822CA0B1AA686FC0095F707 /* Yamada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yamada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8822CA0F1AA686FC0095F707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8822CA101AA686FC0095F707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8822CA121AA686FC0095F707 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		8822CA141AA686FC0095F707 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8822CA161AA686FC0095F707 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8822CA191AA686FC0095F707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +59,27 @@
 		8822CA241AA686FC0095F707 /* YamadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YamadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8822CA291AA686FC0095F707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8822CA2A1AA686FC0095F707 /* YamadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamadaTests.swift; sourceTree = "<group>"; };
+		8822CA391AA68B720095F707 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		8822CA3A1AA68B720095F707 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		8822CA3B1AA68B720095F707 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		8822CA3C1AA68B720095F707 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		8822CA3D1AA68B720095F707 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		8822CA531AA68F5D0095F707 /* Ambler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ambler.mp3; sourceTree = "<group>"; };
+		8822CA541AA68F5D0095F707 /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
+		8822CA571AA68F5D0095F707 /* honey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = honey.wav; sourceTree = "<group>"; };
+		8822CA581AA68F5D0095F707 /* nyon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nyon.wav; sourceTree = "<group>"; };
+		8822CA611AA690320095F707 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		8822CA631AA690450095F707 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		8822CA651AA690530095F707 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		8822CA671AA690620095F707 /* Lavel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lavel.swift; sourceTree = "<group>"; };
+		8822CA691AA690780095F707 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8822CA6B1AA6908A0095F707 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		8822CA6D1AA690960095F707 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		8822CA6F1AA690A70095F707 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		88F9F8A81AA6D06B0099EBD2 /* e-oh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "e-oh.wav"; sourceTree = "<group>"; };
+		88F9F8AA1AA6D1DF0099EBD2 /* drip1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drip1.wav; sourceTree = "<group>"; };
+		88F9F8AC1AA6D29B0099EBD2 /* drop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drop.wav; sourceTree = "<group>"; };
+		88F9F8AE1AA6D40E0099EBD2 /* oh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oh.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +122,16 @@
 			isa = PBXGroup;
 			children = (
 				8822CA101AA686FC0095F707 /* AppDelegate.swift */,
-				8822CA121AA686FC0095F707 /* GameScene.sks */,
 				8822CA141AA686FC0095F707 /* GameScene.swift */,
 				8822CA161AA686FC0095F707 /* GameViewController.swift */,
+				8822CA671AA690620095F707 /* Lavel.swift */,
+				8822CA651AA690530095F707 /* Set.swift */,
+				8822CA611AA690320095F707 /* Cookie.swift */,
+				8822CA631AA690450095F707 /* Array2D.swift */,
+				8822CA691AA690780095F707 /* Extensions.swift */,
+				8822CA6F1AA690A70095F707 /* Chain.swift */,
+				8822CA6B1AA6908A0095F707 /* Tile.swift */,
+				8822CA6D1AA690960095F707 /* Swap.swift */,
 				8822CA181AA686FC0095F707 /* Main.storyboard */,
 				8822CA1B1AA686FC0095F707 /* Images.xcassets */,
 				8822CA1D1AA686FC0095F707 /* LaunchScreen.xib */,
@@ -96,6 +143,8 @@
 		8822CA0E1AA686FC0095F707 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8822CA381AA68B720095F707 /* Levels */,
+				8822CA521AA68F5D0095F707 /* Sounds */,
 				8822CA0F1AA686FC0095F707 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +165,33 @@
 				8822CA291AA686FC0095F707 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8822CA381AA68B720095F707 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				8822CA391AA68B720095F707 /* Level_0.json */,
+				8822CA3A1AA68B720095F707 /* Level_1.json */,
+				8822CA3B1AA68B720095F707 /* Level_2.json */,
+				8822CA3C1AA68B720095F707 /* Level_3.json */,
+				8822CA3D1AA68B720095F707 /* Level_4.json */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		8822CA521AA68F5D0095F707 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8822CA531AA68F5D0095F707 /* Ambler.mp3 */,
+				8822CA541AA68F5D0095F707 /* Chomp.wav */,
+				8822CA571AA68F5D0095F707 /* honey.wav */,
+				88F9F8AC1AA6D29B0099EBD2 /* drop.wav */,
+				88F9F8AA1AA6D1DF0099EBD2 /* drip1.wav */,
+				88F9F8AE1AA6D40E0099EBD2 /* oh.wav */,
+				8822CA581AA68F5D0095F707 /* nyon.wav */,
+				88F9F8A81AA6D06B0099EBD2 /* e-oh.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,9 +274,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8822CA3F1AA68B720095F707 /* Level_1.json in Resources */,
+				8822CA421AA68B720095F707 /* Level_4.json in Resources */,
+				8822CA411AA68B720095F707 /* Level_3.json in Resources */,
+				8822CA5B1AA68F5D0095F707 /* Chomp.wav in Resources */,
+				8822CA3E1AA68B720095F707 /* Level_0.json in Resources */,
+				88F9F8AB1AA6D1DF0099EBD2 /* drip1.wav in Resources */,
 				8822CA1F1AA686FC0095F707 /* LaunchScreen.xib in Resources */,
+				8822CA5F1AA68F5D0095F707 /* nyon.wav in Resources */,
+				88F9F8AD1AA6D29B0099EBD2 /* drop.wav in Resources */,
 				8822CA1C1AA686FC0095F707 /* Images.xcassets in Resources */,
-				8822CA131AA686FC0095F707 /* GameScene.sks in Resources */,
+				8822CA401AA68B720095F707 /* Level_2.json in Resources */,
+				8822CA5A1AA68F5D0095F707 /* Ambler.mp3 in Resources */,
+				88F9F8A91AA6D06B0099EBD2 /* e-oh.wav in Resources */,
+				88F9F8AF1AA6D40E0099EBD2 /* oh.wav in Resources */,
+				8822CA5E1AA68F5D0095F707 /* honey.wav in Resources */,
 				8822CA1A1AA686FC0095F707 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +308,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8822CA151AA686FC0095F707 /* GameScene.swift in Sources */,
+				8822CA621AA690320095F707 /* Cookie.swift in Sources */,
+				8822CA661AA690530095F707 /* Set.swift in Sources */,
+				8822CA701AA690A70095F707 /* Chain.swift in Sources */,
+				8822CA6A1AA690780095F707 /* Extensions.swift in Sources */,
+				8822CA6E1AA690970095F707 /* Swap.swift in Sources */,
 				8822CA171AA686FC0095F707 /* GameViewController.swift in Sources */,
 				8822CA111AA686FC0095F707 /* AppDelegate.swift in Sources */,
+				8822CA6C1AA6908A0095F707 /* Tile.swift in Sources */,
+				8822CA681AA690620095F707 /* Lavel.swift in Sources */,
+				8822CA641AA690450095F707 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +511,7 @@
 				8822CA301AA686FC0095F707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8822CA311AA686FC0095F707 /* Build configuration list for PBXNativeTarget "YamadaTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +520,7 @@
 				8822CA331AA686FC0095F707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
